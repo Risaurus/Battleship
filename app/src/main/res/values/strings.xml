@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Program1-Battleship-ahwang4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gridLabel1">↑ Your\'s Ships ↑</string>
+    <string name="gridLabel2">↓ Attack Grid ↓</string>
+    <string name="waitmsg">Waiting for opponent...</string>
+</resources>

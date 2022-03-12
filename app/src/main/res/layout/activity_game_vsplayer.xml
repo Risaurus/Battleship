@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameVSPlayer"
+    android:background="@color/default_background">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/shipRV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="3dp"/>
+
+    <RelativeLayout
+        android:id="@+id/gridLabels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/shipRV"
+        android:layout_centerHorizontal="true"
+        android:padding="3dp" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gridLabel1"
+            android:textSize="20sp"
+            android:id="@+id/textView1"
+            android:background="#34626B"
+            android:textColor="@color/default_cell"
+            android:layout_marginBottom="2dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gridLabel2"
+            android:textSize="20sp"
+            android:layout_below="@id/textView1"
+            android:layout_centerHorizontal="true"
+            android:background="#34626B"
+            android:textColor="@color/default_cell"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"/>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/attackRV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/gridLabels"
+        android:padding="3dp"/>
+
+    <TextView
+        android:id="@+id/wait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/attackRV"
+        android:layout_alignRight="@+id/attackRV"
+        android:layout_alignTop="@+id/attackRV"
+        android:layout_alignBottom="@+id/attackRV"
+        android:background="#9934626B"
+        android:text="Searching for Match..."
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:visibility="visible"/>
+</RelativeLayout>

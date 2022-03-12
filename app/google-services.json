@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "951520593147",
+    "project_id": "program1-battleship-ahwang4",
+    "storage_bucket": "program1-battleship-ahwang4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951520593147:android:762238ead054a3825b9c5e",
+        "android_client_info": {
+          "package_name": "edu.gmu.cs477.program1_battleship_ahwang4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951520593147-e4psua2vi2ufoffe6o712j7ghvhqoa31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqBs5Z6pD9u5ui9YFYosrqPFoBAi2GIfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951520593147-e4psua2vi2ufoffe6o712j7ghvhqoa31.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
